@@ -1,6 +1,5 @@
 import React from 'react';
 import s from "./ProfileInfo.module.css";
-import topBG from "./profile-bg-image.jpg"
 
 
 const ProfileInfo = (props) => {
@@ -19,10 +18,11 @@ const ProfileInfo = (props) => {
                     <div className={s.photosWrapper}>
                         <div className={s.photosTitle}>Photos:</div>
                         <div className={s.gallery}>
-                            <div className={s.galleryItem}></div>
-                            <div className={s.galleryItem}></div>
-                            <div className={s.galleryItem}></div>
-                            <div className={s.galleryItem}></div>
+                            <div className={s.galleryItem}>1</div>
+                            <div className={s.galleryItem}>2</div>
+                            <div className={s.galleryItem}>3</div>
+                            <div className={s.galleryItem}>4</div>
+                            <div className={s.galleryItem}>5</div>
                         </div>
                     </div>
                 </div>
