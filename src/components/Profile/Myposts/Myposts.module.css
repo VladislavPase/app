@@ -1,0 +1,30 @@
+.posts{
+    padding: 0 20px;
+}
+.postsTitle{
+    height: 60px;
+    background-color: rgba(48,65,89,.1);
+    color: rgb(129, 132, 136);
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 20px;
+}
+.posts textarea{
+    width: 100%;
+    outline: none;
+}
+.btnWrapper{
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    padding: 15px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background: #304159;
+    color: #fff;
+}

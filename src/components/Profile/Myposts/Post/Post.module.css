@@ -1,0 +1,11 @@
+.item{
+    color: #222222;
+    padding: 20px 0;
+    border-top: 1px solid #402737;
+}
+.ava{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #402737;
+}

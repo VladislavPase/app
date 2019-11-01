@@ -1,0 +1,22 @@
+.App{
+    background-color: #E7EAED;
+}
+.top-line{
+    height: 50px;
+    background-color: #304159;
+}
+.top-line img{
+    width: 100px;
+}
+.content-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+.sidebar{
+    width: 100%;
+    padding: 20px 0;
+    border-right: 1px solid rgba(48,65,89,.5);
+}
+.content{
+    box-sizing: border-box;
+}
