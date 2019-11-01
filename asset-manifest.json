@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/VladislavPase/app/static/css/main.ed3d76f5.chunk.css",
+    "main.js": "/VladislavPase/app/static/js/main.e33b57ec.chunk.js",
+    "main.js.map": "/VladislavPase/app/static/js/main.e33b57ec.chunk.js.map",
+    "runtime-main.js": "/VladislavPase/app/static/js/runtime-main.c44b78d5.js",
+    "runtime-main.js.map": "/VladislavPase/app/static/js/runtime-main.c44b78d5.js.map",
+    "static/js/2.a6d52c0f.chunk.js": "/VladislavPase/app/static/js/2.a6d52c0f.chunk.js",
+    "static/js/2.a6d52c0f.chunk.js.map": "/VladislavPase/app/static/js/2.a6d52c0f.chunk.js.map",
+    "index.html": "/VladislavPase/app/index.html",
+    "precache-manifest.6c56fa50d7c0c63e74bcbc1d60756265.js": "/VladislavPase/app/precache-manifest.6c56fa50d7c0c63e74bcbc1d60756265.js",
+    "service-worker.js": "/VladislavPase/app/service-worker.js",
+    "static/css/main.ed3d76f5.chunk.css.map": "/VladislavPase/app/static/css/main.ed3d76f5.chunk.css.map",
+    "static/media/profile-bg-image.jpg": "/VladislavPase/app/static/media/profile-bg-image.7d76820d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c44b78d5.js",
+    "static/js/2.a6d52c0f.chunk.js",
+    "static/css/main.ed3d76f5.chunk.css",
+    "static/js/main.e33b57ec.chunk.js"
+  ]
+}
