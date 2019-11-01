@@ -1,3 +1,5 @@
+import {reRender} from "./render";
+
 let state = {
     profilePage: {
         posts : [
@@ -5,7 +7,8 @@ let state = {
             {id: 2, message: "it's my first post!!!😊😊😊", likesCount: 20},
             {id: 3, message: "Hello", likesCount: 1},
             {id: 4, message: "Fine", likesCount: 2}
-        ]
+        ],
+        newPostText : 'Input your text here..'
     },
     dialogsPage: {
         dialogs : [
@@ -21,6 +24,17 @@ let state = {
             {id: 3, message: "Nice"}
         ]
     }
+}
+export let addPost = () => {
+    let newPost = {id: 5, message: state.profilePage.newPostText, likesCount: 0};
+    state.profilePage.posts.unshift(newPost);
+    state.profilePage.newPostText = '';
+    reRender(state);
+}
+
+export let updatePostText = (NewText) => {
+    state.profilePage.newPostText = NewText;
+        reRender(state);
 }
 
 export default state;

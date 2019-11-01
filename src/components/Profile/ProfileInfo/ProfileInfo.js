@@ -21,8 +21,6 @@ const ProfileInfo = (props) => {
                             <div className={s.galleryItem}>1</div>
                             <div className={s.galleryItem}>2</div>
                             <div className={s.galleryItem}>3</div>
-                            <div className={s.galleryItem}>4</div>
-                            <div className={s.galleryItem}>5</div>
                         </div>
                     </div>
                 </div>
