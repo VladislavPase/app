@@ -12,7 +12,12 @@ const Dialogs = (props) => {
                 {dialogsElements}
             </div>
             <div className={s.messages}>
-                {messageElements}
+                <div className={s.messagesWrapper}>
+                    {messageElements}
+                </div>
+                <div className={s.inputMessages}>
+                    <textarea name="" id="" cols="30" rows="10" value="Input your message here..."></textarea>
+                </div>
             </div>
         </div>
     )

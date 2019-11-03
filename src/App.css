@@ -1,5 +1,6 @@
 .App{
     background-color: #E7EAED;
+    border-bottom: 1px solid rgba(48,65,89,.5);
 }
 .top-line{
     height: 50px;

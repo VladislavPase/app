@@ -20,7 +20,7 @@ function App(props) {
             </div>
             <div className="content">
                 <Route path="/profile" render={ () =>
-                    <Content profilePage={props.state.profilePage} addPost={props.addPost} updatePost={props.updatePost}/> } />
+                    <Content profilePage={props.state.profilePage} dispatch={props.dispatch}/> } />
                 <Route path="/music" render={ () =>
                     <Music/> }/>
                 <Route path="/dialogs" render={ () =>
