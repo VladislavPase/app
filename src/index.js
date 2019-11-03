@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 
 let reRender = (state) => {
-    ReactDOM.render(<App state={store.getState()}
+    ReactDOM.render(<App state={state} store={store}
                          dispatch={store.dispatch.bind(store)}/>,
         document.getElementById('root'));
 };

@@ -55,3 +55,12 @@ a.active{
     box-sizing: border-box;
     outline: none;
 }
+.btn{
+    padding: 15px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    background: #304159;
+    color: #fff;
+}

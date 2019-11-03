@@ -24,7 +24,7 @@ function App(props) {
                 <Route path="/music" render={ () =>
                     <Music/> }/>
                 <Route path="/dialogs" render={ () =>
-                    <Dialogs dialogs={props.state.dialogsPage.dialogs} messages={props.state.dialogsPage.messages}/> }/>
+                    <Dialogs store={props.store} dialogs={props.state.dialogsPage.dialogs} /> }/>
                 <Route path="/news" render={ () => <News/> }/>
                 <Route path="/settings" render={ () => <Sett/> }/>
             </div>
